@@ -18,8 +18,16 @@ body {
     width: 500px;
     height: 500px;
     background: white;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.dot {
+    border: solid 1px black;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
 
 a:link, a:visited {
     text-decoration: none;
