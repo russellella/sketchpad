@@ -42,15 +42,14 @@ function removeChildNodes(parent) {
     console.log("removeChildNodes ran");
 }
 
-/*
-// Reset Grid when Slide Changed
+// Change Grid when Slide Changed
 function changeSketch() {
-    const container = document.getElementById("sketchpage");
-    container.replaceChildren();
+    const container = document.querySelector("#sketchpage");
+    removeChildNodes(container);
 
     let x = document.getElementById("sketchRange").value
     let size = 500/x;
-    
+
 
     for (let i = 0; i < (x*x); i++) {
         const container = document.querySelector("#sketchpage");
@@ -66,16 +65,4 @@ function changeSketch() {
     }
 }
 
-*/
 
-/*
-
-
-
-
-
-
-
-const container = document.getElementById("sketchpage");
-    removeAllChildNodes(container);
-*/
