@@ -12,27 +12,18 @@ let size = 500/x;
         content.style.height = size + "px";
         content.style.width = size + "px";
         content.addEventListener("mouseenter", () => {
-            content.style.backgroundColor = "black";
+            content.style.backgroundColor = "#BAB2B5";
         })
         container.appendChild(content);
-
     }
 }
 
-// Insert Reset Button
+// Reset Button
 const button = document.createElement('button')
 button.innerText = "Reset Sketchpad";
 button.classList.add("button");
-button.addEventListener('click', resetSketchpad)
+button.addEventListener('click', changeSketch)
 document.getElementById("tools").appendChild(button);
-
-// Clear Sketchpad
-function resetSketchpad() {
-    const container = document.querySelector("#sketchpage");
-    removeChildNodes(container);
-    console.log("resetSketchpad ran");
-    initialSketchpad();
-}
 
 // Remove Child Nodes
 function removeChildNodes(parent) {
@@ -42,7 +33,7 @@ function removeChildNodes(parent) {
     console.log("removeChildNodes ran");
 }
 
-// Change Grid when Slide Changed
+// Change Grid when Slide Changed & Reset Grid
 function changeSketch() {
     const container = document.querySelector("#sketchpage");
     removeChildNodes(container);
@@ -59,7 +50,7 @@ function changeSketch() {
         content.style.height = size + "px";
         content.style.width = size + "px";
         content.addEventListener("mouseenter", () => {
-            content.style.backgroundColor = "black";
+            content.style.backgroundColor = "#BAB2B5";
         })
         container.appendChild(content);
     }

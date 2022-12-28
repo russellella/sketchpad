@@ -2,7 +2,7 @@ body {
     font-family: Dosis, Roboto, 'Open Sans', sans-serif;
     margin: 0;
     min-height: 100vh;
-    background-image:linear-gradient(#1F2833, #0B0C10);
+    background-image:linear-gradient(#EEE2DC, #EDC7B7);
     display: flex;
     flex-direction: column;
 
@@ -23,7 +23,7 @@ body {
 }
 
 .dot {
-    border: solid 1px black;
+    border: solid 1px #BAB2B5;
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
@@ -31,7 +31,7 @@ body {
 
 a:link, a:visited {
     text-decoration: none;
-    color: #C5C6C7;
+    color: #ac3b61;
 }
 
 a:hover, a:active {
@@ -40,7 +40,7 @@ a:hover, a:active {
 
 .top {
     text-align: center;
-    color: white;
+    color: #ac3b61;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,11 +50,11 @@ a:hover, a:active {
 
 .button {
     background: none;
-    border: 5px solid #45A29E;
+    border: 5px solid #123C69;
     line-height: 1;
     margin: 0.5em;
     padding: .5em .5em;
-    color: #C5C6C7;
+    color: #ac3b61;
     transition: 0.25s;
     font-size: 24px;
     font-weight: 800;
@@ -62,13 +62,13 @@ a:hover, a:active {
 }
 
 .button:hover {
-    box-shadow: 0 0.5em 0.5em -0.4em #66FCF1;
+    box-shadow: 0 0.5em 0.5em -0.4em #23476e;
   transform: translateY(-0.25em);
 }
 
 .slidecontainer {
     text-align: center;
-    color: white;
+    color: #ac3b61;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,7 +80,7 @@ a:hover, a:active {
     -webkit-appearance: none;
     width: 500px;
     height: 25px;
-    background: #1F2833;
+    background: #BAB2B5;
     outline: none;
     opacity: 0.7;
     -webkit-transition: .2s;
@@ -96,14 +96,14 @@ a:hover, a:active {
     appearance: none;
     width: 25px;
     height: 25px;
-    background: #66FCF1;
+    background: #123C69;
     cursor: pointer;
   }
   
   .slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
-    background: #66FCF1;
+    background: #123C69;
     cursor: pointer;
   }
 
@@ -122,8 +122,8 @@ ul {
 }
 
 .footer {
-    background-color: #1F2833;
-    color: #C5C6C7;
+    background-color: #BAB2B5;
+    color: #123C69;
     display: flex;
     justify-content: space-evenly;
     margin-top: auto;
